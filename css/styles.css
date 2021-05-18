@@ -86,10 +86,9 @@ input::placeholder{
 
 .field {
 display: block;
-box-sizing: border-box;
+border: 1px solid #DEDEDE;
 padding: 15px;
 width: 100%;
-border-color: #DEDEDE;
 border-radius: 5px;
 font-family: Poppins;
 font-style: normal;
@@ -99,6 +98,10 @@ line-height: 26px;
 letter-spacing: 0.25px;
 color: black;
 mix-blend-mode: normal;
+}
+.field:focus{
+  border-color: #5E54A4;
+  outline: none;
 }
 
 .hero-texts h2 {
@@ -121,7 +124,7 @@ color: #FFFFFF;
 
 }
 
-.form-all h3{
+.form-all p{
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
@@ -133,7 +136,7 @@ color: #FFFFFF;
 background: #5E54A4;
 box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
 border-radius: 10px;
-padding: 17px 110px;
+padding: 17px;
 }
 
 .form-all span{
@@ -151,8 +154,10 @@ color: #FFFFFF;
 .submit-button {
 background: #38CC8B;
 box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+border: none;
 border-radius: 5px;
-padding: 15px 130px;
+padding: 15px;
+width: 100%;
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
@@ -179,7 +184,7 @@ text-align: center;
 color: #BAB7D4;
 }
 
-.form-box span{
+.form-box a{
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -187,6 +192,7 @@ color: #BAB7D4;
   line-height: 26px;
   text-align: center;
   color: #FF7979;
+  text-decoration: none;
 }
 
 
