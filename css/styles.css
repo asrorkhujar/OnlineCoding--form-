@@ -80,6 +80,10 @@ border-radius: 10px;
   margin-bottom: 20px;
 }
 
+input::placeholder{
+  color: rgba(61, 59, 72, 0.75);
+}
+
 .field {
 display: block;
 box-sizing: border-box;
@@ -93,7 +97,7 @@ font-weight: 600;
 font-size: 14px;
 line-height: 26px;
 letter-spacing: 0.25px;
-color: rgba(61, 59, 72, 0.75);
+color: black;
 mix-blend-mode: normal;
 }
 
@@ -184,5 +188,6 @@ color: #BAB7D4;
   text-align: center;
   color: #FF7979;
 }
+
 
 
